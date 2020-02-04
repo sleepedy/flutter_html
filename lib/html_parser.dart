@@ -614,9 +614,8 @@ class HtmlOldParser extends StatelessWidget {
           );
         case "p":
           return Padding(
-            padding: EdgeInsets.only(top: blockSpacing, bottom: blockSpacing, left: 10, right: 10),
+            padding: EdgeInsets.only(top: blockSpacing, bottom: blockSpacing),
             child: Container(
-              margin: const EdgeInsets.only(left: 10, right: 10),
               width: width,
               child: Wrap(
                 crossAxisAlignment: WrapCrossAlignment.center,
